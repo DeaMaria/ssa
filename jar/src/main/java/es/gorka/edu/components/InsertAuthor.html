@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:wicket="http://wicket.apache.org">
+<head>
+</head>
+<body>
+	<div class="container">
+		<form wicket:id="formAuthor" class="form-group">
+			<div class="table-responsive">
+				<table class="table">
+					<tr>
+						<td><span wicket:id="nameLabel" class="form-control">Nombre del Autor</span></td>
+						<td><input wicket:id="name" type="text" class="form-control"></input></td>
+					</tr>
+					<tr>
+						<td><span wicket:id="birthdayDateLabel" class="form-control">Fecha de Nacimiento</span></td>
+						<td><input wicket:id="birthdayDate" type="text" class="form-control"></input></td>
+					</tr>
+					<tr>
+						<td><input wicket:id="button" value="Insertar" type="submit" class="btn btn-primary"></td>
+					</tr>
+				</table>
+			</div>
+		</form>
+
+	</div>
+</body>
+</html>
